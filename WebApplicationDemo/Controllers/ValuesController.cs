@@ -18,6 +18,7 @@ namespace WebApplicationDemo.Controllers
         {
             _valueControllerDomain = valueControllerDomain;
         }
+
         // GET api/values
         [HttpGet]
         public ActionResult<TestModel> Get()
