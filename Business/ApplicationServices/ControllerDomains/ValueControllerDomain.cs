@@ -13,6 +13,7 @@ namespace Business.ApplicationServices.ControllerDomains
         {
             _testManagerDomain = testManagerDomain;
         }
+
         public TestModel FetchData()
         {
             return _testManagerDomain.FetchTestData();
